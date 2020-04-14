@@ -189,3 +189,129 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 1576ms (Views: 1080.0ms | ActiveRecord: 0.0ms | Allocations: 7424)
 
 
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:05:49 +0500
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:05:49 +0500
+  [1m[35m (33.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (27.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1539.3ms | Allocations: 519424)
+Completed 500 Internal Server Error in 2093ms (ActiveRecord: 0.0ms | Allocations: 523168)
+
+
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1529.5ms | Allocations: 519817)
+Completed 500 Internal Server Error in 2255ms (ActiveRecord: 0.0ms | Allocations: 524374)
+
+
+  
+ActionView::Template::Error (The asset "rails.svg" is not present in the asset pipeline.):
+     7:   </h2>
+     8:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+     9: </div>
+    10: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"), "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:10
+  
+ActionView::Template::Error (The asset "rails.svg" is not present in the asset pipeline.):
+     7:   </h2>
+     8:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+     9: </div>
+    10: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"), "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:10
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:12:31 +0500
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:12:31 +0500
+  [1m[35m (18.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (13.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:13:05 +0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 87711.6ms | Allocations: 2924793)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 121940.2ms | Allocations: 3740740)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 121943.5ms | Allocations: 3741017)
+Completed 200 OK in 122210ms (Views: 122146.3ms | ActiveRecord: 0.0ms | Allocations: 3761754)
+
+
+Completed 200 OK in 122200ms (Views: 122162.8ms | ActiveRecord: 0.0ms | Allocations: 3761446)
+
+
+Completed 200 OK in 87878ms (Views: 87875.8ms | ActiveRecord: 0.0ms | Allocations: 2943480)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:25:20 +0500
+  [1m[35m (45.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:26:08 +0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 63410.9ms | Allocations: 5300276)
+Completed 200 OK in 64013ms (Views: 63902.5ms | ActiveRecord: 0.0ms | Allocations: 5353178)
+
+
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 41711.8ms | Allocations: 2986849)
+Completed 200 OK in 42020ms (Views: 42018.7ms | ActiveRecord: 0.0ms | Allocations: 3032307)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:30:23 +0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 18.5ms | Allocations: 849)
+Completed 200 OK in 13413ms (Views: 13409.7ms | ActiveRecord: 0.0ms | Allocations: 1347339)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:31:43 +0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 22.4ms | Allocations: 846)
+Completed 500 Internal Server Error in 4842ms (ActiveRecord: 0.0ms | Allocations: 516267)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "/": expected identifier, was "* header */"):
+     5:   <meta charset="utf-8">
+     6:   <%= csrf_meta_tags %>
+     7:   <%= csp_meta_tag %>
+     8:   <%= stylesheet_link_tag 'application', media: 'all',
+     9:                           'data-turbolinks-track': 'reload' %>
+    10:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   <!--[if lt IE 9]>
+  
+app/assets/stylesheets/custom.scss:43
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:32:02 +0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 31.9ms | Allocations: 859)
+Completed 200 OK in 9583ms (Views: 9580.3ms | ActiveRecord: 0.0ms | Allocations: 1357118)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:32:45 +0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 25.0ms | Allocations: 846)
+Completed 200 OK in 560ms (Views: 557.2ms | ActiveRecord: 0.0ms | Allocations: 46806)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:33:09 +0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 12.5ms | Allocations: 849)
+Completed 200 OK in 9830ms (Views: 9828.8ms | ActiveRecord: 0.0ms | Allocations: 1363945)
+
+
+Started GET "/" for 127.0.0.1 at 2020-04-14 16:33:32 +0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 21.2ms | Allocations: 846)
+Completed 200 OK in 542ms (Views: 538.0ms | ActiveRecord: 0.0ms | Allocations: 47640)
+
+
